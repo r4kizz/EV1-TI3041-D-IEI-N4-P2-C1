@@ -37,7 +37,6 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    "apprama2"
 ]
 
 MIDDLEWARE = [
@@ -132,6 +131,3 @@ MAILERS = {
     },
 }
 
-# Configuración de archivos estáticos
-STATIC_URL = '/static/'
-STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]  # Directorio donde buscar archivos estáticos
