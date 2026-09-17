@@ -1,10 +1,12 @@
+import re
+
 from django.shortcuts import render
 
 # Create your views here.
 from django.http import HttpResponse
 
 def vista1(request):
-    return HttpResponse("<h1>App2 - Vista1</h1><p>Hola desde App2/Vista1</p>")
+    return render(request, "apprama2/vistarama1.html")
 
 def vista2(request):
-    return HttpResponse("<h1>App2 - Vista2</h1><p>Hola desde App2/Vista2</p>")
+    return render(request, "apprama2/vistarama2.html")

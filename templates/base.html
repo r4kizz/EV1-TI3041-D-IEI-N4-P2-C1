@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{% block title %}Mi Proyecto{% endblock %}</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body class="{% block body_class %}{% endblock %}">
+    <!-- Menú de navegación -->
+    <nav>
+        <ul>
+            <li><a href="{% url 'index' %}">Inicio</a></li>
+            <li><a href="{% url 'apprama2:vistarama1' %}">Vista 1 App2</a></li>
+            <li><a href="{% url 'apprama2:vistarama2' %}">Vista 2 App2</a></li>
+        </ul>
+    </nav>
+
+    <!-- Contenido específico de cada página -->
+    <main>
+        {% block content %}
+        {% endblock %}
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2026 Mi Proyecto</p>
+    </footer>
+</body>
+</html>
