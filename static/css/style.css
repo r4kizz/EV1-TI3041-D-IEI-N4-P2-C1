@@ -81,6 +81,38 @@ footer {
 	border-top: 6px solid #356859;
 }
 
+.app2-rama1 nav {
+	background: #24527a;
+}
+
+.app2-rama1 main {
+	border-top: 6px solid #24527a;
+}
+
+.app2-rama2 nav {
+	background: #7a3e48;
+}
+
+.app2-rama2 main {
+	border-top: 6px solid #7a3e48;
+}
+
+.app1-rama1 nav {
+	background: #8a4b08;
+}
+
+.app1-rama1 main {
+	border-top: 6px solid #8a4b08;
+}
+
+.app1-rama2 nav {
+	background: #356859;
+}
+
+.app1-rama2 main {
+	border-top: 6px solid #356859;
+}
+
 @media (max-width: 600px) {
 	nav ul {
 		flex-direction: column;
